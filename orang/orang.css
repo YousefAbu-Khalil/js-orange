@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.container1{
+    width: 25%;
+    height: 100vh;
+}
+.container2{
+    height: 100vh;
+    width: 75%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+.container2>img{
+    margin-top: 5px;
+}
+.input{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 50%;
+}
+.mandatory-txt {
+    color: #ff7900;
+}
